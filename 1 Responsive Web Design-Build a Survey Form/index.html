@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <!-- Google Fonts for Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please fill out this survey to help us understand your preferences.</p>
+
+        <form id="survey-form">
+            <!-- Name Input -->
+            <label id="name-label" for="name">Name:</label>
+            <input id="name" type="text" placeholder="Enter your name" required aria-label="Enter your name">
+
+            <!-- Email Input -->
+            <label id="email-label" for="email">Email:</label>
+            <input id="email" type="email" placeholder="Enter your email" required aria-label="Enter your email">
+
+            <!-- Number Input -->
+            <label id="number-label" for="number">Age:</label>
+            <input id="number" type="number" min="18" max="100" placeholder="Enter your age" required
+                aria-label="Enter your age">
+
+            <!-- Dropdown -->
+            <label for="dropdown">Favorite Programming Language:</label>
+            <select id="dropdown" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+            </select>
+
+            <!-- Radio Buttons -->
+            <p>What is your programming experience?</p>
+            <div class="radio-group">
+                <input type="radio" id="beginner" name="experience" value="beginner">
+                <label for="beginner">Beginner</label>
+
+                <input type="radio" id="intermediate" name="experience" value="intermediate">
+                <label for="intermediate">Intermediate</label>
+
+                <input type="radio" id="advanced" name="experience" value="advanced">
+                <label for="advanced">Advanced</label>
+            </div>
+
+            <!-- Checkboxes -->
+            <p>Select your areas of interest:</p>
+            <div class="checkbox-group">
+                <input type="checkbox" id="frontend" name="interest" value="frontend">
+                <label for="frontend">Frontend Development</label>
+                
+                <input type="checkbox" id="backend" name="interest" value="backend">
+                <label for="backend">Backend Development</label>
+                
+                <input type="checkbox" id="fullstack" name="interest" value="fullstack">
+                <label for="fullstack">Fullstack Development</label>
+            </div>
+
+            <!-- Textarea -->
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" placeholder="Enter your comments here"></textarea>
+
+            <!-- Submit Button -->
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
