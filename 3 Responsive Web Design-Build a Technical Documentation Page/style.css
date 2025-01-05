@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Set the font family for the body */
+    line-height: 1.6; /* Set the line height for the body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #EFEBE0; /* Set the background color */
+}
+
+header {
+    background: #A888B5; /* Set the background color for the header */
+    color: #441752; /* Set the text color for the header */
+    padding: 10px 0; /* Set the padding for the header */
+    text-align: center; /* Center align the text */
+    border-bottom: 1px solid #8174A0; /* Set the bottom border color and style */
+}
+
+nav {
+    background: #A888B5; /* Set the background color for the navigation */
+    color: #441752; /* Set the text color for the navigation */
+    padding: 10px; /* Set the padding for the navigation */
+    width: 200px; /* Set the width of the navigation */
+    position: fixed; /* Fix the position of the navigation */
+    height: 100%; /* Set the height of the navigation to 100% */
+    border-right: 1px solid #8174A0; /* Set the right border color and style */
+}
+
+nav a {
+    color: #441752; /* Set the text color for the navigation links */
+    text-decoration: none; /* Remove underline from links */
+    display: block; /* Display links as block elements */
+    padding: 10px 5px; /* Set the padding for the links */
+    border-radius: 10px; /* Set the border radius for the links */
+}
+
+nav a:hover {
+    background: #EFEBE0; /* Set the background color for links on hover */
+}
+
+main {
+    margin-left: 220px; /* Set the left margin for the main content */
+    padding: 20px; /* Set the padding for the main content */
+}
+
+section {
+    margin-bottom: 20px; /* Set the bottom margin for sections */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #441752; /* Set the text color for all heading elements */
+}
+
+code {
+    background: #EFEBE0; /* Set the background color for code blocks */
+    border-left: 4px solid #8174A0; /* Set the left border color and style for code blocks */
+    padding: 5px; /* Set the padding for code blocks */
+    display: block; /* Display code blocks as block elements */
+    margin: 10px 0; /* Set the top and bottom margin for code blocks */
+}
