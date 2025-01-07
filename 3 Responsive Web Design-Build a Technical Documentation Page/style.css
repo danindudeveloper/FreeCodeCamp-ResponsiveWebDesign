@@ -1,3 +1,5 @@
+/* Existing CSS code */
+
 body {
     font-family: 'Roboto', sans-serif; /* Set the font family for the body */
     line-height: 1.6; /* Set the line height for the body */
@@ -55,4 +57,35 @@ code {
     padding: 5px; /* Set the padding for code blocks */
     display: block; /* Display code blocks as block elements */
     margin: 10px 0; /* Set the top and bottom margin for code blocks */
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    nav {
+        width: 100%; /* Set the width of the navigation to 100% */
+        height: auto; /* Set the height of the navigation to auto */
+        position: relative; /* Set the position of the navigation to relative */
+        border-right: none; /* Remove the right border */
+        border-bottom: 1px solid #8174A0; /* Add a bottom border */
+    }
+
+    main {
+        margin-left: 0; /* Remove the left margin for the main content */
+        padding: 10px; /* Adjust the padding for the main content */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 5px 0; /* Adjust the padding for the header */
+    }
+
+    nav a {
+        padding: 5px 2px; /* Adjust the padding for the links */
+    }
+
+    main {
+        padding: 5px; /* Adjust the padding for the main content */
+    }
 }
